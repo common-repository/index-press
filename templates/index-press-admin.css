@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/**
+ * index-press-admin.css - Stylesheet for the settings page.
+ *
+ * @package Index Press
+ * @subpackage templates
+ * @author GrandSlambert
+ * @copyright 2009-2011
+ * @access public
+ * @since 0.1
+ */
+
+label.index-press-post-type {
+    width: 125px;
+    float: left;
+    font-size: 12px;
+}
+label.index-press-hide-word {
+    width: 100px;
+    float: left;
+}
+
+ul#index_press_tabs {
+     border-bottom:1px solid #A2B6CB;
+     font-family:Verdana,Arial;
+     font-size:12px;
+     font-weight:bold;
+     list-style-type:none;
+     margin-bottom:12px;
+     padding-bottom:28px;
+     z-index:1;
+}
+
+#index_press_tabs li {
+     background-color: #EBEBEB;
+     border: 1px solid #A2B6CB;
+     float: left;
+     height: 25px;
+     margin: 2px 0px 0px 5px;
+}
+
+#index_press_tabs li a {
+     color: #666;
+     display: block;
+     float: right;
+     padding: 5px;
+     text-decoration: none;
+}
+
+#index_press_tabs li.index-press-selected {
+     background-color: #A2B6CB;
+}
+
+#index_press_tabs li.index-press-selected a{
+     color: #fff;
+}
